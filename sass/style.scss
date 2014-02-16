@@ -1,0 +1,7 @@
+@import "compass/reset";
+@import "constants";
+@import "header";
+
+body {
+	background-color: $body_bg_color;
+}
