@@ -1,5 +1,9 @@
 @import "constants";
 @import "compass/css3";
+@import "classes";
+@import "compass/utilities/general/clearfix";
+
+
 
 header {
 	display: block;
@@ -9,10 +13,11 @@ header {
 	background-color: $color_bg_header;
 	color: $color_header;
 
+	
+
 	#web_title_block {
 		
-		max-width: $content_max_width;
-		margin: auto;
+		@extend .site_content;
 
 		h1 {
 			margin: 30px 0 10px 0; 
@@ -21,6 +26,37 @@ header {
 
 		h2 {
 			font-size: 1.5rem;
+		}
+	}
+
+	nav {
+		@include pie-clearfix;
+
+		margin-top: 20px;
+		background-color: black;
+		ul {
+			@extend .site_content;
+			li {
+				float: left;
+
+				&.current {
+					background-color: $color_bg_header;
+				}
+
+				a {
+					display: block;
+					height: $nav_height;
+					padding: 0 10px;
+
+					color: $color_header;
+					text-decoration: none;
+					line-height: $nav_height;
+
+					&:hover {
+						background-color: $color_bg_header;
+					}
+				}
+			}
 		}
 	}
 }
