@@ -5,3 +5,16 @@
 body {
 	background-color: $body_bg_color;
 }
+
+#middle {
+	@extend .site_content;
+	#contact_block {
+		float: right;
+		width: 25%;
+		margin-left: 5%;		
+	}
+
+	#content {
+		width: 70%;
+	}
+}

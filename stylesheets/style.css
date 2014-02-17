@@ -67,8 +67,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /****************Color*******************/
 /****************Color*******************/
 /* line 3, ../sass/_classes.scss */
-.site_content, header #web_title_block, header nav ul {
-  width: 1024px;
+.site_content, header #web_title_block, header nav ul, #middle {
+  max-width: 1024px;
   margin: auto;
 }
 
@@ -126,4 +126,15 @@ header nav ul li a:hover {
 /* line 5, ../sass/style.scss */
 body {
   background-color: #e4e4e4;
+}
+
+/* line 11, ../sass/style.scss */
+#middle #contact_block {
+  float: right;
+  width: 25%;
+  margin-left: 5%;
+}
+/* line 17, ../sass/style.scss */
+#middle #content {
+  width: 70%;
 }
