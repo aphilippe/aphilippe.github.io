@@ -1,6 +1,14 @@
 @import "compass/reset";
+@import "compass/css3/box-sizing";
 @import "constants";
 @import "header";
+@import "typos";
+@import "content";
+@import "contact";
+
+* {
+	@include box-sizing(border-box);
+}
 
 body {
 	background-color: $body_bg_color;
@@ -8,13 +16,14 @@ body {
 
 #middle {
 	@extend .site_content;
+	margin: 10px auto;
+
 	#contact_block {
 		float: right;
-		width: 25%;
-		margin-left: 5%;		
+		width: 24%;
 	}
 
 	#content {
-		width: 70%;
+		width: 75%;
 	}
 }

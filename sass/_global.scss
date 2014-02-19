@@ -1,0 +1,16 @@
+@import "constants";
+
+.site_content {
+	max-width: $content_max_width;
+	margin: auto;
+}
+
+.fixed_margin {
+	padding-top: 1px;
+	margin-top: -1px;
+}
+
+.content_block {
+	background-color: darken($body_bg_color, 10%);
+	@include border-radius(10px, 10px);
+}

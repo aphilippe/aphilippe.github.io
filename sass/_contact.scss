@@ -1,0 +1,6 @@
+@import "global";
+
+#contact_block {
+	@extend .content_block;
+	padding: 10px;
+}
