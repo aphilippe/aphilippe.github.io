@@ -1,0 +1,49 @@
+@import "constants";
+
+.cv_contents {
+	margin: 10px 0 15px 0;
+}
+
+.cv_personnal_infos {
+	@extend .cv_contents;
+
+	li {
+		padding: 2px 0;
+
+		.title {
+			font-weight: bold;
+		}
+	}
+
+	.name {
+		font-size: 2rem;
+	}
+}
+
+.cv_job {
+	
+	@extend .cv_contents;
+	@include border-radius(10px, 10px);
+	border: 1px solid $color_spec_text;
+	padding: 10px;
+	background-color: white;
+
+	.date {
+		color: $color_content_light;
+		font-style: italic;
+		font-size: 0.8rem;
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 1.2rem;
+	}
+
+	.cv_description {
+		
+	}	
+
+	li {
+		margin: 5px 5%;
+	}
+}

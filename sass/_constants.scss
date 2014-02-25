@@ -9,5 +9,6 @@ $color_header: white;
 
 $color_content: black;
 $color_content_title: black;
+$color_content_light : lighten($color_content, 30%);
 
 $color_spec_text: #007EDF;
