@@ -4,24 +4,11 @@
 	margin: 10px 0 15px 0;
 }
 
-.cv_personnal_infos {
-	@extend .cv_contents;
-
-	li {
-		padding: 2px 0;
-
-		.title {
-			font-weight: bold;
-		}
-	}
-
-	.name {
-		font-size: 2rem;
-	}
+.title {
+	font-weight: bold;
 }
 
-.cv_job {
-	
+.cv_block {
 	@extend .cv_contents;
 	@include border-radius(10px, 10px);
 	border: 1px solid $color_spec_text;
@@ -37,7 +24,29 @@
 
 	h2 {
 		font-size: 1.2rem;
+		font-weight: bold;
 	}
+
+	li {
+		margin: 5px;
+	}
+}
+
+.cv_personnal_infos {
+	@extend .cv_contents;
+
+	li {
+		padding: 2px 0;
+	}
+
+	.name {
+		font-size: 2rem;
+	}
+}
+
+.cv_job {
+	
+	@extend .cv_block;
 
 	.cv_description {
 		
@@ -45,5 +54,12 @@
 
 	li {
 		margin: 5px 5%;
+	}
+}
+
+.cv_skills {
+	@extend .cv_block;
+	li {
+		margin: 10px 5%;
 	}
 }

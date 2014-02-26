@@ -206,25 +206,17 @@ html {
 
 /****************Color*******************/
 /* line 3, ../sass/_cv.scss */
-.cv_contents, .cv_personnal_infos, .cv_job {
+.cv_contents, .cv_block, .cv_job, .cv_skills, .cv_personnal_infos {
   margin: 10px 0 15px 0;
 }
 
-/* line 10, ../sass/_cv.scss */
-.cv_personnal_infos li {
-  padding: 2px 0;
-}
-/* line 13, ../sass/_cv.scss */
-.cv_personnal_infos li .title {
+/* line 7, ../sass/_cv.scss */
+.title {
   font-weight: bold;
 }
-/* line 18, ../sass/_cv.scss */
-.cv_personnal_infos .name {
-  font-size: 2rem;
-}
 
-/* line 23, ../sass/_cv.scss */
-.cv_job {
+/* line 11, ../sass/_cv.scss */
+.cv_block, .cv_job, .cv_skills {
   -webkit-border-radius: 10px 10px;
   -moz-border-radius: 10px / 10px;
   border-radius: 10px / 10px;
@@ -232,20 +224,40 @@ html {
   padding: 10px;
   background-color: white;
 }
-/* line 31, ../sass/_cv.scss */
-.cv_job .date {
+/* line 18, ../sass/_cv.scss */
+.cv_block .date, .cv_job .date, .cv_skills .date {
   color: #4d4d4d;
   font-style: italic;
   font-size: 0.8rem;
   margin: 0;
 }
-/* line 38, ../sass/_cv.scss */
-.cv_job h2 {
+/* line 25, ../sass/_cv.scss */
+.cv_block h2, .cv_job h2, .cv_skills h2 {
   font-size: 1.2rem;
+  font-weight: bold;
 }
-/* line 46, ../sass/_cv.scss */
+/* line 30, ../sass/_cv.scss */
+.cv_block li, .cv_job li, .cv_skills li {
+  margin: 5px;
+}
+
+/* line 38, ../sass/_cv.scss */
+.cv_personnal_infos li {
+  padding: 2px 0;
+}
+/* line 42, ../sass/_cv.scss */
+.cv_personnal_infos .name {
+  font-size: 2rem;
+}
+
+/* line 55, ../sass/_cv.scss */
 .cv_job li {
   margin: 5px 5%;
+}
+
+/* line 62, ../sass/_cv.scss */
+.cv_skills li {
+  margin: 10px 5%;
 }
 
 /* line 10, ../sass/style.scss */
