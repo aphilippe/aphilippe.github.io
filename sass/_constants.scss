@@ -4,6 +4,8 @@ $nav_height: 40px;
 
 /****************Color*******************/
 $body_bg_color: rgb(240, 240, 240);
+$color_bg_dark: darken($body_bg_color, 10%);
+
 $color_bg_header: rgb(50, 50, 50);
 $color_header: white;
 
@@ -12,3 +14,6 @@ $color_content_title: black;
 $color_content_light : lighten($color_content, 30%);
 
 $color_spec_text: #007EDF;
+
+$color_bg_list_element: white;
+$color_bg_list_element_hover: $color_bg_dark;

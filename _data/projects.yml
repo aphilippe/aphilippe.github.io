@@ -1,0 +1,6 @@
+- name: aphilippe.github.io
+  url: http://aphilippe.github.io
+  infos: This very site. It's been developed with jekyll, sass and HTML.
+
+- name: Sonic clone
+  url: http://aphilippe.github.io/sonic_clone

@@ -88,6 +88,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 10px / 10px;
 }
 
+/* line 20, ../sass/_global.scss */
+.content_list, .cv_contents, .cv_personnal_infos, #content .project_list {
+  margin: 10px 0 15px 0;
+}
+
+/* line 24, ../sass/_global.scss */
+.content_list_element, .cv_block, .cv_job, .cv_skills, #content .project_list .project {
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+  margin: 10px 0 15px 0;
+  border: 1px solid #007edf;
+  padding: 10px;
+  background-color: white;
+}
+/* line 31, ../sass/_global.scss */
+.content_list_element .title, .cv_block .title, .cv_job .title, .cv_skills .title, #content .project_list .project .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 /* line 8, ../sass/_header.scss */
 header {
   display: block;
@@ -189,6 +210,27 @@ html {
   border-radius: 10px / 10px;
 }
 
+/* line 20, ../sass/_global.scss */
+.content_list, .cv_contents, .cv_personnal_infos, #content .project_list {
+  margin: 10px 0 15px 0;
+}
+
+/* line 24, ../sass/_global.scss */
+.content_list_element, .cv_block, .cv_job, .cv_skills, #content .project_list .project {
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+  margin: 10px 0 15px 0;
+  border: 1px solid #007edf;
+  padding: 10px;
+  background-color: white;
+}
+/* line 31, ../sass/_global.scss */
+.content_list_element .title, .cv_block .title, .cv_job .title, .cv_skills .title, #content .project_list .project .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 /* line 3, ../sass/_contact.scss */
 #contact_block {
   padding: 10px;
@@ -205,93 +247,188 @@ html {
 }
 
 /****************Color*******************/
-/* line 3, ../sass/_cv.scss */
-.cv_contents, .cv_block, .cv_job, .cv_skills, .cv_personnal_infos {
-  margin: 10px 0 15px 0;
+/****************Color*******************/
+/* line 3, ../sass/_global.scss */
+.site_content, header #web_title_block, header nav ul, #middle {
+  max-width: 1024px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-/* line 7, ../sass/_cv.scss */
-.title {
-  font-weight: bold;
+/* line 10, ../sass/_global.scss */
+.fixed_margin {
+  padding-top: 1px;
+  margin-top: -1px;
 }
 
-/* line 11, ../sass/_cv.scss */
-.cv_block, .cv_job, .cv_skills {
+/* line 15, ../sass/_global.scss */
+.content_block, #contact_block {
+  background-color: #d6d6d6;
   -webkit-border-radius: 10px 10px;
   -moz-border-radius: 10px / 10px;
   border-radius: 10px / 10px;
+}
+
+/* line 20, ../sass/_global.scss */
+.content_list, .cv_contents, .cv_personnal_infos, #content .project_list {
+  margin: 10px 0 15px 0;
+}
+
+/* line 24, ../sass/_global.scss */
+.content_list_element, .cv_block, .cv_job, .cv_skills, #content .project_list .project {
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+  margin: 10px 0 15px 0;
   border: 1px solid #007edf;
   padding: 10px;
   background-color: white;
 }
-/* line 18, ../sass/_cv.scss */
+/* line 31, ../sass/_global.scss */
+.content_list_element .title, .cv_block .title, .cv_job .title, .cv_skills .title, #content .project_list .project .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* line 8, ../sass/_cv.scss */
+.title {
+  font-weight: bold;
+}
+
+/* line 15, ../sass/_cv.scss */
 .cv_block .date, .cv_job .date, .cv_skills .date {
   color: #4d4d4d;
   font-style: italic;
   font-size: 0.8rem;
   margin: 0;
 }
-/* line 25, ../sass/_cv.scss */
+/* line 22, ../sass/_cv.scss */
 .cv_block h2, .cv_job h2, .cv_skills h2 {
   font-size: 1.2rem;
   font-weight: bold;
 }
-/* line 30, ../sass/_cv.scss */
+/* line 27, ../sass/_cv.scss */
 .cv_block li, .cv_job li, .cv_skills li {
   margin: 5px;
 }
 
-/* line 38, ../sass/_cv.scss */
+/* line 35, ../sass/_cv.scss */
 .cv_personnal_infos li {
   padding: 2px 0;
 }
-/* line 42, ../sass/_cv.scss */
+/* line 39, ../sass/_cv.scss */
 .cv_personnal_infos .name {
   font-size: 2rem;
 }
 
-/* line 55, ../sass/_cv.scss */
+/* line 52, ../sass/_cv.scss */
 .cv_job li {
   margin: 5px 5%;
 }
 
-/* line 62, ../sass/_cv.scss */
+/* line 59, ../sass/_cv.scss */
 .cv_skills li {
   margin: 10px 5%;
 }
 
-/* line 10, ../sass/style.scss */
+/****************Color*******************/
+/* line 3, ../sass/_global.scss */
+.site_content, header #web_title_block, header nav ul, #middle {
+  max-width: 1024px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 10, ../sass/_global.scss */
+.fixed_margin {
+  padding-top: 1px;
+  margin-top: -1px;
+}
+
+/* line 15, ../sass/_global.scss */
+.content_block, #contact_block {
+  background-color: #d6d6d6;
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+}
+
+/* line 20, ../sass/_global.scss */
+.content_list, .cv_contents, .cv_personnal_infos, #content .project_list {
+  margin: 10px 0 15px 0;
+}
+
+/* line 24, ../sass/_global.scss */
+.content_list_element, .cv_block, .cv_job, .cv_skills, #content .project_list .project {
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+  margin: 10px 0 15px 0;
+  border: 1px solid #007edf;
+  padding: 10px;
+  background-color: white;
+}
+/* line 31, ../sass/_global.scss */
+.content_list_element .title, .cv_block .title, .cv_job .title, .cv_skills .title, #content .project_list .project .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* line 9, ../sass/_projects_list.scss */
+#content .project_list .project:hover {
+  background-color: #d6d6d6;
+}
+/* line 11, ../sass/_projects_list.scss */
+#content .project_list .project:hover .infos {
+  text-shadow: none;
+}
+/* line 16, ../sass/_projects_list.scss */
+#content .project_list .project .title {
+  border: none;
+}
+/* line 20, ../sass/_projects_list.scss */
+#content .project_list .project .infos {
+  color: black;
+}
+/* line 23, ../sass/_projects_list.scss */
+#content .project_list .project .infos:hover {
+  text-shadow: none;
+}
+
+/* line 11, ../sass/style.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 body {
   background-color: #f0f0f0;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 #middle {
   margin: 10px auto;
 }
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 #middle a {
   text-decoration: none;
   color: #007edf;
 }
-/* line 26, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 #middle a:hover {
   text-shadow: 0px 0px 2px #007edf;
   color: #0069ba;
 }
-/* line 32, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 #middle #contact_block {
   float: right;
   width: 24%;
 }
-/* line 37, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 #middle #content {
   width: 75%;
   padding: 10px;

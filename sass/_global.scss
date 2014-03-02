@@ -13,7 +13,23 @@
 }
 
 .content_block {
-	background-color: darken($body_bg_color, 10%);
+	background-color: $color_bg_dark;
 	@include border-radius(10px, 10px);
 }
 
+.content_list {
+	margin: 10px 0 15px 0;
+}
+
+.content_list_element {
+	@include border-radius(10px, 10px);
+	margin: 10px 0 15px 0;
+	border: 1px solid $color_spec_text;
+	padding: 10px;
+	background-color: $color_bg_list_element;
+
+	.title {
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+}

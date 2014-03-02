@@ -1,7 +1,8 @@
 @import "constants";
+@import "global";
 
 .cv_contents {
-	margin: 10px 0 15px 0;
+	@extend .content_list;
 }
 
 .title {
@@ -9,11 +10,7 @@
 }
 
 .cv_block {
-	@extend .cv_contents;
-	@include border-radius(10px, 10px);
-	border: 1px solid $color_spec_text;
-	padding: 10px;
-	background-color: white;
+	@extend .content_list_element;
 
 	.date {
 		color: $color_content_light;
