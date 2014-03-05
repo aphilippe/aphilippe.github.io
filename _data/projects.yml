@@ -4,3 +4,4 @@
 
 - name: Sonic clone
   url: http://aphilippe.github.io/sonic_clone
+  infos: A clone of Sonic the Hedgehog on Sega Genesis/Megadrive done with Unity.
