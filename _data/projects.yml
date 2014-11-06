@@ -5,3 +5,7 @@
 - name: Sonic clone
   url: http://aphilippe.github.io/sonic_clone
   infos: A clone of Sonic the Hedgehog on Sega Genesis/Megadrive done with Unity.
+
+- name: RPGEvolve
+  url: https://github.com/aphilippe/RPGEvolve
+  infos: A simple RPG in several forms from text base to 2D. Done in C++.
