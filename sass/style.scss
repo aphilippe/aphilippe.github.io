@@ -8,8 +8,13 @@
 @import "cv";
 @import "projects_list";
 
+
 * {
 	@include box-sizing(border-box);
+
+	@media print {
+		overflow: visible !important;
+	}
 }
 
 body {
@@ -33,6 +38,8 @@ body {
 	#contact_block {
 		float: right;
 		width: 27%;
+
+
 	}
 
 	#content {
@@ -40,3 +47,5 @@ body {
 		padding: 10px;
 	}
 }
+
+@import "print";

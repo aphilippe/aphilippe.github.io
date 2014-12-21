@@ -1,0 +1,15 @@
+@media print {
+  /* line 3, ../sass/print.scss */
+  header {
+    display: none;
+  }
+
+  /* line 9, ../sass/print.scss */
+  #middle #contact_block {
+    display: none;
+  }
+  /* line 13, ../sass/print.scss */
+  #middle #content {
+    width: 100%;
+  }
+}
