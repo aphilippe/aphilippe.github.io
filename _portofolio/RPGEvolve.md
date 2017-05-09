@@ -5,4 +5,4 @@ technos: C++
 context: personal
 ---
 
-A simple RPG in several forms from text base to 2D.
+A simple RPG in several forms from text base to 2D. 
