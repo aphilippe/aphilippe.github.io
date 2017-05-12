@@ -1,0 +1,41 @@
+$navbar-height: 5rem;
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: .5rem 1rem;
+    background-color: $background-color-1;
+    height: $navbar-height;
+
+    ul {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        li {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+            height: 3rem;
+            line-height: 3rem;
+            font-size: 1.5rem;
+
+            &:hover {
+                background-color: #FFF; 
+            }
+
+            a {
+                color: #FFF;
+                text-decoration: none;
+
+                &:hover {
+                    color: $background-color-1;
+                }
+            }
+        }
+    }
+}

@@ -4,11 +4,12 @@
   {% include head.html %}
 
   <body>
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    {% include navbar.html %}
+    {% include header.html %}
+    <main>
+        {% for section in site.section %}
+            {% include section.html %}
+        {% endfor %}
     </main>
 
   </body>
