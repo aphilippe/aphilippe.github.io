@@ -16,8 +16,7 @@ nav {
         align-items: center;
 
         li {
-            padding-left: 1rem;
-            padding-right: 1rem;
+            margin-left: 1rem;
             border-radius: 4px;
             transition: background-color 0.3s ease;
             height: 3rem;
@@ -29,8 +28,12 @@ nav {
             }
 
             a {
+                display: block;
                 color: #FFF;
                 text-decoration: none;
+
+                padding-left: 1rem;
+                padding-right: 1rem;
 
                 &:hover {
                     color: $background-color-1;
