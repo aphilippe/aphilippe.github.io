@@ -1,6 +1,7 @@
 @import "config";
 @import "reset";
 @import "navbar";
+@import "header";
 
 
 
@@ -12,4 +13,8 @@
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
+}
+
+h1 {
+    font-weight: 500;
 }
