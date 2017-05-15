@@ -5,6 +5,8 @@
 @import "section";
 @import "about";
 @import "footer";
+@import "contact";
+@import "copyright";
 
 
 
@@ -21,4 +23,8 @@ body {
 
 h1 {
     font-weight: 500;
+}
+
+a {
+    color: #0275d8;
 }
