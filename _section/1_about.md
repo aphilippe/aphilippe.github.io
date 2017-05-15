@@ -1,5 +1,6 @@
 ---
 title: About
+position: main
 ---
 <p>
 Diplomé en Master Informatique à l'université de Bordeaux 1 en 2010, je suis developpeur informatique depuis. Un temps spécialisé dans le développement iOS, j'aime essayé de nouvelles choses.

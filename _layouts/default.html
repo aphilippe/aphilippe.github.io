@@ -8,7 +8,9 @@
     {% include header.html %}
     <main>
         {% for section in site.section %}
+          {% if section.position == "main" %}
             {% include section.html %}
+          {% endif %}
         {% endfor %}
     </main>
     {% include footer.html %}
