@@ -10,4 +10,14 @@ section {
 
         margin-bottom: .5rem;
     }
+
+    &:before {
+        // necessary for navigation (navbar has fixed position)
+        content: '';
+        display: block; 
+        position: relative; 
+        width: 0; 
+        height:$navbar-height; 
+        margin-top:-$navbar-height;
+    }
 }
