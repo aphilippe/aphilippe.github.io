@@ -2,7 +2,10 @@
 title: Contacts
 position: footer
 ---
-
+<ul>
 {% for contact in site.data.contacts %}
-<a href="{{ contact.link }}" ><span class="fa fa-{{ contact.type }}"></span>{{ contact.text }}</a>
+<li>
+<a href="{{ contact.link }}" ><span class="fa fa-{{ contact.icon }}"></span>{{ contact.text }}</a>
+</li>
 {% endfor %}
+</ul>

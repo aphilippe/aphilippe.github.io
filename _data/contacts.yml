@@ -1,3 +1,15 @@
-- type: github
+- icon: envelope
+  link: mailto:adrien.philippe.pro@gmail.com
+  text: adrien.philippe.pro@gmail.com
+
+- icon: map-marker
+  link: https://www.google.fr/maps/place/Bordeaux/@44.8637065,-0.6561808,12z/data=!3m1!4b1!4m5!3m4!1s0xd5527e8f751ca81:0x796386037b397a89!8m2!3d44.837789!4
+  text: Bordeaux area
+
+- icon: linkedin
+  link: https://www.linkedin.com/in/adrien-philippe-67566264/
+  text: Adrien Philippe
+
+- icon: github
   link: https://github.com/aphilippe
   text: aphilippe
