@@ -1,0 +1,10 @@
+<footer>
+    {% for section in site.section %}
+        {% if section.position == "footer" %}
+            {% include section.html %}
+        {% endif %}
+    {% endfor %}
+    <section id="copyright">
+        <p>Design inspired by <a href="https://github.com/portfolio-central/jekyll-instagram-portfolio-theme">Jekyll Instagram Portfolio</a></p>
+    </section>
+</footer>

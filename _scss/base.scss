@@ -1,0 +1,32 @@
+@import "config";
+@import "reset";
+@import "navbar";
+@import "header";
+@import "section";
+@import "about";
+@import "footer";
+@import "contact";
+@import "copyright";
+@import "portofolio";
+
+
+
+* {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+a {
+    color: #0275d8;
+}

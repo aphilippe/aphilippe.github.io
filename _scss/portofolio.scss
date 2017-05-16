@@ -1,0 +1,16 @@
+#portofolio {
+    ul {
+        display: flex;
+        flex-flow: row wrap;
+        
+        li {
+            width: 25%;
+            padding-top: 10%;
+            padding-bottom: 10%;
+
+            a {
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<nav>
+    <ul>
+        {% for section in site.section %}
+        <li>
+            <a href="#{{ section.title | downcase }}">{{ section.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
