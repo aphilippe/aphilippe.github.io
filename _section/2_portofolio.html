@@ -6,7 +6,11 @@ position: main
 <ul>
 {% for project in site.portofolio %}
     <li>
+        {% if project.link %}
         <a href="{{ project.link }}">
+        {% else %}
+        <a href="{{ site.url }}/assets/images/{{ project.image }}">
+        {% endif %}
             <img src="{{ site.url }}/assets/images/{{ project.image }}"/>
             <span>{{ project.title }}</span>
         </a>

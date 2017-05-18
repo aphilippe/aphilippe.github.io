@@ -2,6 +2,7 @@
 title: Drone Choreo Controller
 technos: Python Kivy
 context: Betomorrow
+image: DCC.png
 ---
 
 La partie évennementielle de Betomorrow vend des spectacles de drones volant de façon autonome. 
