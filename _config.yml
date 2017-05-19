@@ -42,8 +42,9 @@ collections:
   section:
     output: false
 
-# defaults:
-#   - scope:
-#       type: portofolio
-#     values:
-#       layout: page
+defaults:
+  - scope:
+      type: portofolio
+    values:
+      layout: project
+      

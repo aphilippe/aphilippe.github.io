@@ -1,0 +1,40 @@
+#project {
+    main {
+        max-width: $site-width;
+        margin: 2rem  auto;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+
+        max-width: 100%;
+    }
+
+    #content {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        #information {
+            div {
+                margin-bottom: 1rem;
+            }
+        }
+
+        #description {
+            width: 75%;
+
+            p {
+                margin-bottom: .25rem;
+                text-align: justify;
+            }
+        }
+
+        h1 {
+            color: $text-color-1;
+            font-size: 1.5rem;
+        }
+    }
+}

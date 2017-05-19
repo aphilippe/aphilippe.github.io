@@ -1,5 +1,5 @@
 ---
-title: Drone Carpet Generator
+title: "Drone Carpet Generator"
 technos: Python
 context: Betomorrow
 image: carpet_generator.png
